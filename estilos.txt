@@ -1,0 +1,29 @@
+//color fondo ventana
+#FFFF66
+
+
+//codigo CSS para crear las bolitas selecionadas
+QLabel{
+	background-color:qradialgradient(spread:pad, cx:0.483, cy:0.125, radius:0.5, fx:0.476955, fy:0.125, stop:0 rgba(255, 255, 255, 219), stop:1 rgba(255, 182, 0, 255));
+	color:rgb(0, 0, 0);
+	border-width: 1px;
+	border-style: solid;
+    border-color: #ffb600;
+	border-radius: 15px;
+}
+
+
+//estilo css para la sombra
+QLabel{
+	background-color:qradialgradient(spread:pad, cx:0.352826, cy:0.784, radius:0.5, fx:0.074, fy:1, stop:0 rgba(180, 152, 39, 255), stop:1 rgba(203, 145, 0, 252));
+	color:rgb(0, 0, 0);
+border-width: 1px;
+border-style: solid;
+border-color: rgba(203, 145, 0, 252);
+border-radius: 15px;
+}
+
+
+
+Agregar esto a .pro
+QTPLUGIN += dsengine qtmedia_audioengine
